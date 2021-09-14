@@ -6,4 +6,12 @@ module.exports = {
     "@typescript-eslint/quotes": ["error", "single", {"allowTemplateLiterals": true}],
     "max-len": ["error", {"code": 120, "ignoreUrls": true}],
   },
+  "overrides": [{
+    "files": ["**/tests/**.ts", "**/*.test.ts"],
+    "plugins": ["jest"],
+    "rules": {
+      "@typescript-eslint/unbound-method": "off",
+      "jest/unbound-method": "error",
+    },
+  }],
 };
