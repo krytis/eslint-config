@@ -1,6 +1,6 @@
 {
   "name": "@krytis/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint configuration from @krytis based on pkmn/Pokémon Showdown's style",
   "repository": "github:krytis/eslint-config",
   "license": "MIT",
@@ -11,12 +11,12 @@
     "index.js"
   ],
   "peerDependencies": {
-    "@pkmn/eslint-config": ">=1.5.0",
-    "@typescript-eslint/eslint-plugin": ">=4.31",
-    "@typescript-eslint/parser": ">=4.31",
-    "eslint-plugin-import": ">=2.24",
-    "eslint-plugin-jest": ">=24.4",
-    "eslint": ">=7.32",
-    "typescript": ">=4.4"
+    "@pkmn/eslint-config": ">=2.1.0",
+    "@typescript-eslint/eslint-plugin": ">=5.5",
+    "@typescript-eslint/parser": ">=5.5",
+    "eslint-plugin-import": ">=2.25",
+    "eslint-plugin-jest": ">=25.3",
+    "eslint": ">=8.4",
+    "typescript": ">=4.5"
   }
 }
